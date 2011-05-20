@@ -37,6 +37,7 @@ class QuestionableTest < TestCase
   test 'alias/hash syntax' do
     assert @klass.has_password?
     assert_raises(RuntimeError, /@missing/) { @klass.has_missing? }
+    assert_raises(NoMethodError) { @klass.password? }
   end
 
   test 'blocks' do
