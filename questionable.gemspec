@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.author      = 'Lee Jarvis'
   s.email       = 'lee@jarvis.co'
   s.homepage    = 'http://github.com/injekt/questionable'
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = 'Question your objects!'
+  s.description = 'Easily add method helpers for testing instance variables'
   s.files       = `git ls-files`.split('\n')
   s.test_files  = `git ls-files -- {test,spec,features}/*`.split('\n')
 end
